@@ -26,7 +26,7 @@ const bscConnector = new BscConnector({ supportedChainIds: [CHAIN_ID.BSC] })
 
 export const walletlink = new WalletLinkConnector({
   url: getRpcUrl(CHAIN_ID.BSC),
-  supportedChainIds: [CHAIN_ID.BSC],
+  supportedChainIds: [CHAIN_ID.BSC, CHAIN_ID.MATIC],
   appName: 'Apeswap',
   darkMode: true,
   appLogoUrl: 'https://apeswap.finance/logo.png',
